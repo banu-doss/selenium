@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="errorvalidation">
+    <classes>
+      <class name="seleniumjava.Tests.errorvalidation"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test  thread-count="5" name="submitordertest">
+    <classes>
+      <class name="seleniumjava.Tests.submitordertest"/>
+    </classes>
+  </test> <!-- Test -->
+    
+</suite> <!-- Suite -->
+
+  
